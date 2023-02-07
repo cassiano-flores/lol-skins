@@ -70,7 +70,7 @@ function App() {
         {allImages.map((image) => (
           <div key={image.id} onClick={() => handleClick(image)}>
             <img className="image" src={image.image} alt={image.name} />
-            <div className="image-text">{image.name}</div>
+            {/* <div className="image-text">{image.name}</div> */}
           </div>
         ))}
       </div>
@@ -79,7 +79,7 @@ function App() {
         {selectedImages.map((image) => (
           <div key={image.id} onClick={() => handleClick(image)}>
             <img className="image" src={image.image} alt={image.name} />
-            <div className="image-text">{image.name}</div>
+            {/* <div className="image-text">{image.name}</div> */}
           </div>
         ))}
       </div>
