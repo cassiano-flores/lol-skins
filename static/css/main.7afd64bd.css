@@ -1,0 +1,2 @@
+body{box-sizing:border-box;margin:0}.images{align-items:center;display:flex;flex-wrap:wrap;justify-content:center}.image{cursor:pointer;height:50px;margin:10px;width:50px}.image:hover{opacity:.7}.image-text{color:#fff;font-size:14px;left:50%;position:absolute;text-align:center;top:50px;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.upper-images{margin-top:20px}.lower-images{margin-top:40px}
+/*# sourceMappingURL=main.7afd64bd.css.map*/
