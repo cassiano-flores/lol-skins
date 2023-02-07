@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lol-skins/static/css/main.7afd64bd.css",
-    "main.js": "/lol-skins/static/js/main.d4f01c42.js",
+    "main.js": "/lol-skins/static/js/main.b6216d77.js",
     "index.html": "/lol-skins/index.html",
     "main.7afd64bd.css.map": "/lol-skins/static/css/main.7afd64bd.css.map",
-    "main.d4f01c42.js.map": "/lol-skins/static/js/main.d4f01c42.js.map"
+    "main.b6216d77.js.map": "/lol-skins/static/js/main.b6216d77.js.map"
   },
   "entrypoints": [
     "static/css/main.7afd64bd.css",
-    "static/js/main.d4f01c42.js"
+    "static/js/main.b6216d77.js"
   ]
 }
