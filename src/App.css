@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.image:hover {
+  opacity: 0.7;
+}
+
+.image-text {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.upper-images {
+  margin-top: 20px;
+}
+
+.lower-images {
+  margin-top: 40px;
+}
