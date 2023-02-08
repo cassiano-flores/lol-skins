@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-function App() {
+export default function App() {
   const [allImages, setAllImages] = useState([]);
   const [selectedImages, setSelectedImages] = useState([]);
 
@@ -19,12 +19,7 @@ function App() {
 
     async function fetchData() {
       const response = await fetch(
-        "https://ddragon.leagueoflegends.com/cdn/13.1.1/data/en_US/champion.json",
-        {
-          headers: {
-            "Cache-Control": "no-cache, no-store, must-revalidate",
-          },
-        }
+        "https://ddragon.leagueoflegends.com/cdn/13.1.1/data/en_US/champion.json"
       );
       const data = await response.json();
       if (!allImagesFromStorage) {
@@ -91,5 +86,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
