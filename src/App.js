@@ -19,7 +19,12 @@ function App() {
 
     async function fetchData() {
       const response = await fetch(
-        "https://ddragon.leagueoflegends.com/cdn/13.1.1/data/en_US/champion.json"
+        "https://ddragon.leagueoflegends.com/cdn/13.1.1/data/en_US/champion.json",
+        {
+          headers: {
+            "Cache-Control": "no-cache, no-store, must-revalidate",
+          },
+        }
       );
       const data = await response.json();
       if (!allImagesFromStorage) {
